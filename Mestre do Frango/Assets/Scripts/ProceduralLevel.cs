@@ -13,6 +13,8 @@ public class ProceduralLevel : MonoBehaviour
         {
             //sistema de randomização de BlocLvl
             blocLvl[0].transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z + distancia);
+            blocLvl[0].SetActive(true);
+            blocLvl[1].SetActive(false);
         }
     }
 }

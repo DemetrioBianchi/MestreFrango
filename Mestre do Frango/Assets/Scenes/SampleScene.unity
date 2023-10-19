@@ -2449,6 +2449,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3788956781838696021, guid: d9e7b9e02a8870b43a145c4c028c7092, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3805410819333754710, guid: d9e7b9e02a8870b43a145c4c028c7092, type: 3}
       propertyPath: m_TagString
       value: Ground
@@ -2898,9 +2902,17 @@ PrefabInstance:
       value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 9049396095545774137, guid: d9e7b9e02a8870b43a145c4c028c7092, type: 3}
+      propertyPath: blocLvl.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9049396095545774137, guid: d9e7b9e02a8870b43a145c4c028c7092, type: 3}
       propertyPath: blocLvl.Array.data[0]
       value: 
       objectReference: {fileID: 1697784494}
+    - target: {fileID: 9049396095545774137, guid: d9e7b9e02a8870b43a145c4c028c7092, type: 3}
+      propertyPath: blocLvl.Array.data[1]
+      value: 
+      objectReference: {fileID: 1029137249}
     - target: {fileID: 9062191692028146865, guid: d9e7b9e02a8870b43a145c4c028c7092, type: 3}
       propertyPath: m_Layer
       value: 8
@@ -3234,7 +3246,7 @@ MonoBehaviour:
     FieldOfView: 60
     OrthographicSize: 5
     NearClipPlane: 0.3
-    FarClipPlane: 1000
+    FarClipPlane: 418.2
     Dutch: 0
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
@@ -3325,7 +3337,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 418.2
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -4325,6 +4337,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3788956781838696021, guid: d9e7b9e02a8870b43a145c4c028c7092, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3805410819333754710, guid: d9e7b9e02a8870b43a145c4c028c7092, type: 3}
       propertyPath: m_TagString
       value: Ground
@@ -4778,9 +4794,17 @@ PrefabInstance:
       value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 9049396095545774137, guid: d9e7b9e02a8870b43a145c4c028c7092, type: 3}
+      propertyPath: blocLvl.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9049396095545774137, guid: d9e7b9e02a8870b43a145c4c028c7092, type: 3}
       propertyPath: blocLvl.Array.data[0]
       value: 
       objectReference: {fileID: 1029137249}
+    - target: {fileID: 9049396095545774137, guid: d9e7b9e02a8870b43a145c4c028c7092, type: 3}
+      propertyPath: blocLvl.Array.data[1]
+      value: 
+      objectReference: {fileID: 1953499572}
     - target: {fileID: 9062191692028146865, guid: d9e7b9e02a8870b43a145c4c028c7092, type: 3}
       propertyPath: m_Layer
       value: 8
@@ -5247,9 +5271,17 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 9049396095545774137, guid: d9e7b9e02a8870b43a145c4c028c7092, type: 3}
+      propertyPath: blocLvl.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9049396095545774137, guid: d9e7b9e02a8870b43a145c4c028c7092, type: 3}
       propertyPath: blocLvl.Array.data[0]
       value: 
       objectReference: {fileID: 1523599847}
+    - target: {fileID: 9049396095545774137, guid: d9e7b9e02a8870b43a145c4c028c7092, type: 3}
+      propertyPath: blocLvl.Array.data[1]
+      value: 
+      objectReference: {fileID: 1697784494}
     - target: {fileID: 9062191692028146865, guid: d9e7b9e02a8870b43a145c4c028c7092, type: 3}
       propertyPath: m_Layer
       value: 8
@@ -6966,7 +6998,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3788956781838696021, guid: d9e7b9e02a8870b43a145c4c028c7092, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3805410819333754710, guid: d9e7b9e02a8870b43a145c4c028c7092, type: 3}
       propertyPath: m_TagString
@@ -7421,9 +7453,17 @@ PrefabInstance:
       value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 9049396095545774137, guid: d9e7b9e02a8870b43a145c4c028c7092, type: 3}
+      propertyPath: blocLvl.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9049396095545774137, guid: d9e7b9e02a8870b43a145c4c028c7092, type: 3}
       propertyPath: blocLvl.Array.data[0]
       value: 
       objectReference: {fileID: 780717916}
+    - target: {fileID: 9049396095545774137, guid: d9e7b9e02a8870b43a145c4c028c7092, type: 3}
+      propertyPath: blocLvl.Array.data[1]
+      value: 
+      objectReference: {fileID: 977859110}
     - target: {fileID: 9062191692028146865, guid: d9e7b9e02a8870b43a145c4c028c7092, type: 3}
       propertyPath: m_Layer
       value: 8
@@ -8425,9 +8465,17 @@ PrefabInstance:
       value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 9049396095545774137, guid: d9e7b9e02a8870b43a145c4c028c7092, type: 3}
+      propertyPath: blocLvl.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9049396095545774137, guid: d9e7b9e02a8870b43a145c4c028c7092, type: 3}
       propertyPath: blocLvl.Array.data[0]
       value: 
       objectReference: {fileID: 977859110}
+    - target: {fileID: 9049396095545774137, guid: d9e7b9e02a8870b43a145c4c028c7092, type: 3}
+      propertyPath: blocLvl.Array.data[1]
+      value: 
+      objectReference: {fileID: 127188248}
     - target: {fileID: 9062191692028146865, guid: d9e7b9e02a8870b43a145c4c028c7092, type: 3}
       propertyPath: m_Layer
       value: 8
@@ -9039,6 +9087,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3788956781838696021, guid: d9e7b9e02a8870b43a145c4c028c7092, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3805410819333754710, guid: d9e7b9e02a8870b43a145c4c028c7092, type: 3}
       propertyPath: m_TagString
       value: Ground
@@ -9484,9 +9536,17 @@ PrefabInstance:
       value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 9049396095545774137, guid: d9e7b9e02a8870b43a145c4c028c7092, type: 3}
+      propertyPath: blocLvl.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9049396095545774137, guid: d9e7b9e02a8870b43a145c4c028c7092, type: 3}
       propertyPath: blocLvl.Array.data[0]
       value: 
       objectReference: {fileID: 127188248}
+    - target: {fileID: 9049396095545774137, guid: d9e7b9e02a8870b43a145c4c028c7092, type: 3}
+      propertyPath: blocLvl.Array.data[1]
+      value: 
+      objectReference: {fileID: 1523599847}
     - target: {fileID: 9062191692028146865, guid: d9e7b9e02a8870b43a145c4c028c7092, type: 3}
       propertyPath: m_Layer
       value: 8
@@ -10365,9 +10425,17 @@ PrefabInstance:
       value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 9049396095545774137, guid: d9e7b9e02a8870b43a145c4c028c7092, type: 3}
+      propertyPath: blocLvl.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9049396095545774137, guid: d9e7b9e02a8870b43a145c4c028c7092, type: 3}
       propertyPath: blocLvl.Array.data[0]
       value: 
       objectReference: {fileID: 1953499572}
+    - target: {fileID: 9049396095545774137, guid: d9e7b9e02a8870b43a145c4c028c7092, type: 3}
+      propertyPath: blocLvl.Array.data[1]
+      value: 
+      objectReference: {fileID: 780717916}
     - target: {fileID: 9062191692028146865, guid: d9e7b9e02a8870b43a145c4c028c7092, type: 3}
       propertyPath: m_Layer
       value: 8
